@@ -7,6 +7,7 @@ public class CharacterMovement : MonoBehaviour
     public Rigidbody rb;
     public float moveSpeed = 5f; //kecepatan gerakan
     public bool cubeIsOnTheGround = true;
+    public ParticleSystem p;
 
     private float xInput;
     private float zInput;
@@ -53,6 +54,12 @@ public class CharacterMovement : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             cubeIsOnTheGround = true;
+        }
+
+        else if (collision.gameObject.tag == "Trampoline")
+        {
+            rb.AddForce(new Vector3(0, 4, 0), ForceMode.Impulse);
+            Instantiate(p, new Vector3(0.3f,-12.3f,-3.15f),Quaternion.identity);
         }
     }
 }
