@@ -5,13 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Reset : MonoBehaviour
 {
-    public float threshold = -10f;
-    // Update is called once per frame
-    void Update()
+    public void ResetGame()
     {
-        if(transform.position.y < threshold)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

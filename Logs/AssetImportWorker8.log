@@ -1,0 +1,21 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro N; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 16276 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Dipindah/Kuliah/All About College/Tugas Akhir/TA APPS NEEDS/BOUNCING BALL/bouncing ball
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+53148
+Successfully changed project path to: D:/Dipindah/Kuliah/All About College/Tugas Akhir/TA APPS NEEDS/BOUNCING BALL/bouncing ball
+D:/Dipindah/Kuliah/All About College/Tugas Akhir/TA APPS NEEDS/BOUNCING BALL/bouncing ball
+Using Asset Import Pipeline V2.

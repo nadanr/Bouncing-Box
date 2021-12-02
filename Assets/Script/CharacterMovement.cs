@@ -8,9 +8,14 @@ public class CharacterMovement : MonoBehaviour
     public float moveSpeed = 5f; //kecepatan gerakan
     public bool cubeIsOnTheGround = true;
     public ParticleSystem p;
+    public GameObject LoseCanvas;
 
+    private bool GameAktif = true;
     private float xInput;
     private float zInput;
+    private float threshold = -60f;
+    // Update is called once per frame
+   
 
     void Start()
     {
@@ -21,6 +26,13 @@ public class CharacterMovement : MonoBehaviour
     {
         ProcessInputs();
         Jump();
+        if (transform.position.y < threshold)
+        {
+            LoseCanvas.SetActive(true);
+            Debug.Log("Game Kalah");
+            GameAktif = false;
+            
+        }
     }
 
     private void FixedUpdate()

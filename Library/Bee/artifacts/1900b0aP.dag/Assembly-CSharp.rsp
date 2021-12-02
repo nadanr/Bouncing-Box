@@ -291,6 +291,7 @@
 "Assets/Script/CharacterMovement.cs"
 "Assets/Script/NextLevel.cs"
 "Assets/Script/Reset.cs"
+"Assets/Script/TimeSetting.cs"
 -langversion:8.0
 
 /deterministic
